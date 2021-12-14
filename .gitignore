@@ -1,0 +1,4 @@
+.idea
+**/*.pyc
+*.pyc
+data_aug/__pycache__/**/.pyc
