@@ -49,9 +49,9 @@ class CutoutAugmentation:
         original_w = image.size(2)
         original_channel = image.size(0)
 
-        new_image = image.copy()
-        new_boxes = boxes.copy()
-        new_labels = labels.copy()
+        new_image = image
+        new_boxes = boxes
+        new_labels = labels
 
         for _ in range(50):
             # Random cutout size: [0.15, 0.5] of original dimension
